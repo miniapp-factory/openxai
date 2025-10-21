@@ -3,6 +3,7 @@ import { title, description } from "../lib/metadata";
 import Rocket from "../components/rocket";
 
 export async function generateMetadata(): Promise<Metadata> {
+  const url = process.env.NEXT_PUBLIC_URL ?? "";
   return {
     other: {
       "fc:miniapp": JSON.stringify({
