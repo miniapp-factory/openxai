@@ -1,7 +1,6 @@
-import { description, title, url } from "@/lib/metadata";
 import { Metadata } from "next";
-
-export const dynamic = "force-dynamic";
+import { title, description } from "../lib/metadata";
+import Rocket from "../components/rocket";
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
@@ -13,18 +12,7 @@ export async function generateMetadata(): Promise<Metadata> {
         ogDescription: description,
         ogImageUrl: `${url}/icon.png`,
         button: {
-          title: "Launch Mini App",
-          action: {
-            type: "launch_miniapp",
-            name: title,
-            url: url,
-            splashImageUrl: `${url}/icon.png`,
-            iconUrl: `${url}/icon.png`,
-            splashBackgroundColor: "#000000",
-            description: description,
-            primaryCategory: "utility",
-            tags: [],
-          },
+          // existing button config
         },
       }),
     },
@@ -36,6 +24,9 @@ export default function Home() {
     <main className="flex flex-col gap-3 place-items-center px-4">
       <span className="text-2xl">{title}</span>
       <span className="text-muted-foreground">{description}</span>
+      <div className="mt-8">
+        <Rocket />
+      </div>
     </main>
   );
 }
