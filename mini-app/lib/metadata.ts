@@ -1,3 +1,3 @@
-export const title = "Mini App Factory App";
-export const description = "This app was created by the Mini App Factory!";
+export const title = "OpenxAI Word Guesser";
+export const description = "Guess the daily five-letter word in six tries. Share your results!";
 export const url = process.env.NEXT_PUBLIC_URL;
