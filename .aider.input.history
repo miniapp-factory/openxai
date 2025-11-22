@@ -1,0 +1,20 @@
+
+# 2025-11-22 18:00:54.657699
++Code the following app
++```
++The app is called "OpenxAI Word Guesser". Every day, a new five-letter word is chosen (make sure to have a list of words for every day for the next 365 days), and players attempt to guess it within six tries. After each guess, the letters are color-coded to indicate their accuracy: green means the letter is correct and in the right position, yellow means it is in the word but in the wrong position, and gray means it is not in the word at all. If a guessed word contains multiple instances of the same letter—such as the "o"s in "robot"—those letters will be marked green or yellow only if the answer also contains them multiple times; otherwise, extra occurrences will be marked gray.
++
++Place this game on the home screen and allow the user to share if they failed or solved today's "OpenxAI Word". Generate an image to display when the user failed or solved it respectively.
++```
++
++Generate an app logo and update the app metadata title and description.
+
+# 2025-11-22 18:00:54.658956
++Code the following app
++```
++The app is called "OpenxAI Word Guesser". Every day, a new five-letter word is chosen (make sure to have a list of words for every day for the next 365 days), and players attempt to guess it within six tries. After each guess, the letters are color-coded to indicate their accuracy: green means the letter is correct and in the right position, yellow means it is in the word but in the wrong position, and gray means it is not in the word at all. If a guessed word contains multiple instances of the same letter—such as the "o"s in "robot"—those letters will be marked green or yellow only if the answer also contains them multiple times; otherwise, extra occurrences will be marked gray.
++
++Place this game on the home screen and allow the user to share if they failed or solved today's "OpenxAI Word". Generate an image to display when the user failed or solved it respectively.
++```
++
++Generate an app logo and update the app metadata title and description.
